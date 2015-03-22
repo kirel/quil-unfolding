@@ -1,6 +1,19 @@
 # quil-unfolding
 
-A Quil sketch designed to ... well, that part is up to you.
+A Quil sketch with Unfolding.
+
+# Setup
+
+Download
+
+- http://unfoldingmaps.org/downloads
+- http://glgraphics.sourceforge.net/#download
+
+and copy them into `lib` and then run
+
+    $ lein localrepo install lib/unfolding.0.9.6.jar unfolding 0.9.6
+    $ lein localrepo install lib/GLGraphics.jar glgraphics 1.0.0
+    $ lein deps
 
 ## Usage
 
