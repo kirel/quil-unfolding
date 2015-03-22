@@ -36,7 +36,7 @@
       (q/ellipse x y 100 100))))
 
 (q/defsketch quil-unfolding
-  :title "You spin my circle right round"
+  :title "Map"
   :size [500 500]
   ; setup function called only once, during sketch initialization.
   :setup setup
