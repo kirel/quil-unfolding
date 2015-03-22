@@ -1,4 +1,7 @@
 (ns quil-unfolding.core
+  (:import (de.fhpotsdam.unfolding UnfoldingMap)
+           (de.fhpotsdam.unfolding.geo Location)
+           (de.fhpotsdam.unfolding.providers StamenMapProvider)) 
   (:require [quil.core :as q]
             [quil.middleware :as m]))
 
